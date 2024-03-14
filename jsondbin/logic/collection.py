@@ -68,7 +68,7 @@ class CollectionClient(BaseClient):
         resp = self.request("c", "POST", headers={HK.COLLECTION_NAME: name})
         return Collection.from_created(CollectionCreated(**resp))
 
-    def rename(self, new_name: str) -> dict:
+    def rename(self, new_name: str):
         """
         Renames a collection with the given ID to the specified name.
 
