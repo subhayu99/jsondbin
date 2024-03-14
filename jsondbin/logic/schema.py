@@ -1,0 +1,1 @@
+#TODO - Add support for schemas: https://jsonbin.io/api-reference/schema-docs/get-started
