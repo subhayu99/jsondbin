@@ -26,7 +26,10 @@ To start using JsonDBin, instantiate the `JsonDBin` class with your jsonbin.io A
 from jsondbin import JsonDBin
 
 # Initialize JsonDBin with your API key
-db = JsonDBin(api_key="YOUR_JSONBIN_API_KEY", collection_name="my_collection")
+db = JsonDBin(
+    api_key="YOUR_JSONBIN_API_KEY", 
+    collection_name="my_collection", # this is optional
+)
 ```
 
 ### Collection Management
