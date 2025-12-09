@@ -2,6 +2,10 @@
 
 JsonDBin is a Python package that offers a unified interface for leveraging [jsonbin.io](https://jsonbin.io) as a JSON database. It simplifies managing collections and documents within jsonbin.io, providing an easy-to-use API for CRUD operations.
 
+![PyPI version](https://img.shields.io/pypi/v/jsondbin)
+![License](https://img.shields.io/github/license/subhayu99/jsondbin)
+[![Downloads](https://pepy.tech/badge/jsondbin)](https://pepy.tech/project/jsondbin)
+
 ## Features
 
 - **Collection Management**: Create, retrieve, and update collections.
